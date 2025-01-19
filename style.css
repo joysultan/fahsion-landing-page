@@ -49,7 +49,7 @@ nav{
         padding: 130px;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
+        align-items: flex-end;
         margin-bottom: 130px;
     }
     .b-img{
@@ -59,8 +59,8 @@ nav{
 
     }
     .b-content{
-        margin-top: 350px;
-        margin-right: 100px;
+         
+        margin-right: 100px; 
     }
     .b-content h4{
         font-size: 18px;
@@ -96,3 +96,43 @@ nav{
 /* banner end */
 
 /* header end */
+
+/* category start */
+.category{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+
+}
+.first-column{}
+.first-column img{}
+.item{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+.item-1{}
+.item-1 img{}
+.second-column{
+  display: flex;
+  align-items: flex-end;
+   height: 574px;
+    background-image: url(/img/second-img.png);
+    background-repeat: no-repeat;
+   
+}
+.second-column a{
+    background-color: white;
+    padding: 4px 18px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 52px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+/* category end */
