@@ -1,0 +1,6 @@
+search icon: <i class="fa-solid fa-magnifying-glass"></i>
+heart icon: <i class="fa-regular fa-heart"></i>
+shopping cart: <i class="fa-solid fa-cart-shopping"></i>
+
+
+banner-bg: #CEDCDF

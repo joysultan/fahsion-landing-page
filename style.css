@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+}
+/* header start */
+header{
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.logo{
+
+}
+.logo img{
+    width: 100px;
+    cursor: pointer;
+}
+.menu{
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #22262A;
+    text-transform: uppercase;
+    margin-right:40px
+}
+.icons{
+
+}
+.icons i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* banner start */
+    .banner{
+        background-image: url(/img/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 745px;
+        padding: 130px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 130px;
+    }
+    .b-img{
+
+    }
+    .b-img img{
+
+    }
+    .b-content{
+        margin-top: 350px;
+        margin-right: 100px;
+    }
+    .b-content h4{
+        font-size: 18px;
+        font-weight: 500;
+        color: #22262A;
+    }
+    .b-content h2{
+        font-size: 80px;
+        color: #22262A;
+    }
+    .b-content p{
+            font-size: 18px;
+            color: #22262A;
+            font-weight: 500;
+            margin-bottom: 30px;
+    }
+    .discover{
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        background-color: #22262A;
+        padding: 4px 18px;
+        cursor: pointer;
+    }
+    .shop-now{
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        background-color: #22262A;
+        padding: 4px 18px;
+        cursor: pointer;
+    }
+/* banner end */
+
+/* header end */
